@@ -1,0 +1,17 @@
+.category{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: .6rem;
+    margin-left: -9.5rem;
+    
+}
+.catego{
+    padding: 1.4rem; 
+}
+.catego img{
+    width: 14rem;
+    height: 10rem;
+    border-radius: .4rem;
+   
+}

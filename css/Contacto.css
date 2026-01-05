@@ -1,0 +1,56 @@
+
+
+
+.contacto{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.mapa iframe{
+    margin-top: 3rem;
+
+}
+
+
+.contacto h2{
+    text-align: center;
+    color: rgb(46, 26, 86);
+    font-size: 25px;
+   
+
+}
+
+.Informacões ul li a img{
+    width: 5%;
+    height: 10%;
+}
+.Informacões ul li a:hover{
+    margin-left: 2rem;
+    transition: .5s;
+    color: rgba(210, 105, 30, 0.555); 
+}
+
+.Informacões ul li a{
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
+
+.Informacões ul{
+    margin-top: 3rem;
+}
+.Informacões ul li {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1020px){
+    .contacto{
+        flex-direction: column-reverse;
+    }
+    iframe{
+        width: 100%;
+    }
+    
+}
